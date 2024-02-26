@@ -3,7 +3,7 @@
 # @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
-    name: springboot-init
+    name: yubi
   # 默认 dev 环境
   profiles:
     active: dev
@@ -21,9 +21,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/yangbi
     username: root
-    password: 123456
+    password: 1234
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -101,3 +101,17 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.yupi.springbootinit.controller
+
+# 鱼聪明 AI 配置（https://yucongming.com/）
+yuapi:
+  client:
+    access-key: oofmbxh5zgvsdlfxatmnxadw39fbsnqy
+    secret-key: 7429tcxiuh6pzx198831vnmywbqt3l7a
+
+## 讯飞 AI 配置
+xunfei:
+  client:
+    appid: 662ae739
+    apiSecret: MWE3NGU4Y2Y5YjU1Y2UzN2Y4YTZjOWVj
+    apiKey: a16641b7c3ddeb012f5b7efb5c86c077
+
